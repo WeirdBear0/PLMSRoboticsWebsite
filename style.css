@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: 'Courier Prime', 'Bitter', serif;
+}
+.header{
+    height: 50rem;
+    background-color: #184e77;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(roboticsheader.png) no-repeat center center fixed; 
+    box-shadow: inset 0 0 0 50vw rgba(69, 123, 157, 0.4);
+    background-size: cover; 
+}
+.header h1{
+    margin: 0;
+    color: white;
+    padding-top: 7rem;
+}
+.header p{
+    color: #f4f1de;
+}
+.main-title{
+    font-size: 50;
+    color: purple;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    flex: 1;
+    width: 100%;
+    background-color: #003049;
+    text-align: center;
+    height: 5rem;
+}
+.navbar a{
+    margin: auto;
+    text-decoration: none;
+    color: #ff7b00;
+}
+.cardContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    margin: 5rem;
+    height: 10rem;
+    width: 10%;
+    background-color: greenyellow;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
