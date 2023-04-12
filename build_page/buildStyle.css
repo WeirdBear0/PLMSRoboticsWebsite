@@ -39,8 +39,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(build_page/buildheader.jpg) no-repeat center center fixed; 
-    box-shadow: inset 0 0 0 50vw rgba(69, 123, 157, 0.4);
+    background: url(buildheader.jpeg) no-repeat center center fixed; 
+    box-shadow: inset 0 0 0 50vw rgba(0, 16, 61, 0.4);  
     background-size: cover; 
 }
 .header h1{
@@ -56,7 +56,7 @@ body{
     color: purple;
     text-align: center;
 }
-.build-header{
+/* .build-header{
     height: 50rem;
     background-color: #184e77;
     display: flex;
@@ -64,18 +64,18 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(build_page/buildheader.jpg) no-repeat center center fixed; 
+    background: url(build_page/buildheader.png) no-repeat center center fixed; 
     box-shadow: inset 0 0 0 50vw rgba(0, 16, 61, 0.4);  
     background-size: cover; 
-}
+} */
 .whoare{
     padding: 2rem;
     background-color: white;
 }
 .whodo{
+    background-color:#003049;
     padding: 2rem;
 }
 .build-body{
-    background-color:#003049;
     color:white;
 }
