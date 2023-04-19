@@ -12,6 +12,9 @@ body{
     background-color: white;
     justify-content: space-between;
     height: 5rem;
+    border-style: solid;
+    border-color:#000814;
+    border-width: 0.08rem;
 }
 .logo{
     display: flex;  
@@ -59,6 +62,9 @@ body{
 }
 .text{
     margin: 2rem; 
+}
+.text p{
+    font-family: "D-DIN", sans-serif;
 }
 .card-container{
     background-color: lightgray;
@@ -126,6 +132,9 @@ body{
 .robotmentorcontainer div{
     width: 50%;
     padding:0 2rem 2rem;
+}
+.robotmentorcontainer div p{
+    font-family: 'D-DIN', sans-serif;
 }
 .robotmentorcontainer div a{
     transition: all .5s ease;
