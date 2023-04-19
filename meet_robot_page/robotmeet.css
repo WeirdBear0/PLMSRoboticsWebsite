@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', 'Courier Prime', 'Bitter', serif;
+    background-color: black;
+    color: #ffd60a;
+}
+model-viewer{
+    width: 800px;
+    height: 600px;
+    margin: 0, auto;
+}
+.back-container{
+    padding: 1rem;
+    width: 7rem;
+}
+.back{
+    transition: all .5s ease;
+    text-decoration: none;
+    color:#000814;
+    background-color: aliceblue;
+    padding: 0.2rem;
+    border-style: solid;
+    border-color: #000814;
+    border-width: 0.08rem;
+}
+.back:hover{
+    color: aliceblue;
+    background-color: #000814;
+    border-color:aliceblue;
+}
+.body{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.content{
+    padding: 4rem; 
+    animation: fadein 5s;
+    animation-delay: 1s;
+}
+@keyframes fadein {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.content h1{
+    font-size: 100px;
+}
+.content p{
+    font-size: 50px;
+}
+.model{
+    padding-top: 3rem
+}

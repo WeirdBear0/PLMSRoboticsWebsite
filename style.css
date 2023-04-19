@@ -37,6 +37,10 @@ body{
 }
 .header{
     height: 53rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #184e77;
     display: flex;
     flex: 1;
