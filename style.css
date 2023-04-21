@@ -15,6 +15,7 @@ body{
     border-style: solid;
     border-color:#000814;
     border-width: 0.08rem;
+    z-index: 3;
 }
 .logo{
     display: flex;  
@@ -29,6 +30,7 @@ body{
     display: flex;
     text-align: center;
     width: 40rem;
+    z-index: 4;
 }
 .links a{
     margin: auto;
