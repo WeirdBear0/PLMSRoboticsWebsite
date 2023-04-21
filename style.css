@@ -92,43 +92,51 @@ body{
     box-shadow: inset 0 0 0 50vw rgba(0, 16, 61, 0.4); 
 }
 .card1{
-    background:url(cadphoto.jpg);  
+    transition: all .5s ease;
+    display: flex;
+    flex: 1;
+    background:url(softwareImg.jpg);  
     background-size: 100% 20rem;
+    align-items: center;
+    justify-content: center;
 }
 .card2{
+    display: flex;
+    flex: 1;
     background:url(cadphoto.jpg);  
     background-size: 100% 20rem;
+    align-items: center;
+    justify-content: center;
 }
 .card3{
+    display: flex;
+    flex: 1;
     background:url(cadphoto.jpg);  
     background-size: 100% 20rem;
+    align-items: center;
+    justify-content: center;
 }
 .card4{
+    display: flex;
+    flex: 1;
     background:url(cadphoto.jpg);  
     background-size: 100% 20rem;
+    align-items: center;
+    justify-content: center;
 }
 .card-topic{
+    width: 45%;
+    height: 20rem;
+    transition: all .5s ease;
     position: relative;
-    margin-left: 1rem;
     z-index: 2;
     color:white;
+    opacity: 1;
+    transform: translateY(0);
 }
-.card-topic::after {
-    content: '';
-    position: absolute;
-    width: 45%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: white;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-  
-.card-topic:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+.card-topic:hover{
+    opacity: 0;
+    transform: translateY(-0.5rem);
 }
 .robotmentorcontainer{
     display: flex;
@@ -154,3 +162,8 @@ body{
     color: #000814;
     background-color: whitesmoke;
 }
+.competitions{
+    background-color: lightgray;
+    padding: 1rem 2rem;
+}
+
