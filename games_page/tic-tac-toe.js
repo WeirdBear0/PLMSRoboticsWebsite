@@ -29,6 +29,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
                     stop=true;
                 }
             }
+            if (turn >= 9 && !stop) {
+                winner.innerHTML = "It's a tie! Reload to play again.";
+            }
             turn++;
         }
       });
