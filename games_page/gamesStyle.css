@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+.center {
+    margin-left: 43%;
+    margin-top: 15%;
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    */
+}
+td{
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid black;
+}
