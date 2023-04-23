@@ -11,12 +11,14 @@ window.addEventListener("DOMContentLoaded", (event) => {
         if (x === undefined || y === undefined) {
           return;
         }
-        if(turn % 2 == 0) {
-            ev.target.innerHTML = "O";
-        }else {
-            ev.target.innerHTML = "X";
+        if(ev.target.getInnerHTML() === "") {
+            if(turn % 2 == 0) {
+                ev.target.innerHTML = "O";
+            }else{
+                ev.target.innerHTML = "X";
+            }
+            turn++;
         }
-        turn++;
       });
     }
 });
