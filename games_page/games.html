@@ -6,9 +6,6 @@
         <script src = "tic-tac-toe.js"> </script>
     </head>
     <body>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Courier+Prime&family=Oswald:wght@500&display=swap');
-        </style>
         <div class = "navbar">
             <div class="logo">
                 <p>PINE LAKE ROBOTICS</p>
@@ -26,10 +23,11 @@
             <div class = "header">
                 <h1 class = "main-title">TIC-TAC-TOE</p>
             </div>
-            <table class = "center">
+            <p id = "winner"></p>
+            <table class = "center" id = "one">
                 <tbody id = "tic-tac-toe">
                     <tr>
-                        <td id = "a1" data-col="1" data-row="1"></td>
+                        <td id = "a1"></td>
                         <td id = "a2"></td>
                         <td id = "a3"></td>
                     </tr>
@@ -45,7 +43,6 @@
                     </tr>
                 </tbody>
             </table>
-            <p id = "winner">Hello! I'll show you the winner!</p>
         </div>
     </body>
 </html>

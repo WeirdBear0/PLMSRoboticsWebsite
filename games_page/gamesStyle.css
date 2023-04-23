@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: 'Oswald', 'Courier Prime', 'Bitter', serif;
     color: #000814;
+    font-family: fantasy;
 }
 .navbar{
     display: flex;
@@ -169,21 +170,24 @@ h1 {
     text-align: center;
 }
 .center {
-    margin-left: 43%;
-    margin-top: 15%;
+    margin-left: 37%;
+    margin-top: 10%;
     margin-bottom:15%;
-    /*
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    */
+}
+#winner {
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.5em;
 }
 td{
-    width: 4rem;
-    height: 4rem;
-    border: 2px solid black;
+    width: 7rem;
+    height: 7rem;
+    border: solid 5px hsla(0, 0%, 30%, 0.8);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 225px;
+    line-height: 1.5em;
 }
 tbody {
     text-align: center;
+    font-family: cursive;
+    font-size: 3em;
 }

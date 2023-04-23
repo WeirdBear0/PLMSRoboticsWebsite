@@ -15,13 +15,15 @@ window.addEventListener("DOMContentLoaded", (event) => {
         if(ev.target.getInnerHTML() === "" ) {
             var winner = document.getElementById("winner");
             if(turn % 2 == 0) {
-                ev.target.innerHTML = "O";
+                ev.target.innerHTML = "o";
+                ev.target.style.color = "#7C109A";
                 if(checkForWin(el, x, y)) {
                     winner.innerHTML = "The winner is O. Reload to play again!";
                     stop=true;
                 }
             }else{
-                ev.target.innerHTML = "X";
+                ev.target.innerHTML = "x";
+                ev.target.style.color = "#BED600";
                 if(checkForWin(el, x, y)) {
                     winner.innerHTML = "The winner is X. Reload to play again!";
                     stop=true;
@@ -38,28 +40,28 @@ function checkForWin(el, x, y) {
 }
 function checkRow(el, y) {
     if(el.rows[y].cells[0].getInnerHTML() === el.rows[y].cells[1].getInnerHTML() && el.rows[y].cells[1].getInnerHTML() === el.rows[y].cells[2].getInnerHTML()) {
-        el.rows[y].style.backgroundColor = "green";
+        el.rows[y].style.backgroundColor = '#00A1DE';
         return true;
     }
 }
 function checkCol(el, x) {
     if(el.rows[0].cells[x].getInnerHTML() === el.rows[1].cells[x].getInnerHTML() && el.rows[1].cells[x].getInnerHTML() === el.rows[2].cells[x].getInnerHTML()) {
         for(i = 0; i < 3; i++) {
-            el.rows[i].cells[x].style.backgroundColor = "green";
+            el.rows[i].cells[x].style.backgroundColor = '#00A1DE';
         }
         return true;
     }
 }
 function checkDiag(el) {
     if(el.rows[0].cells[0].getInnerHTML() != "" && el.rows[0].cells[0].getInnerHTML() === el.rows[1].cells[1].getInnerHTML() && el.rows[1].cells[1].getInnerHTML()  === el.rows[2].cells[2].getInnerHTML()) {
-        el.rows[0].cells[0].style.backgroundColor = "green";
-        el.rows[1].cells[1].style.backgroundColor = "green";
-        el.rows[2].cells[2].style.backgroundColor = "green";
+        el.rows[0].cells[0].style.backgroundColor = "#00A1DE";
+        el.rows[1].cells[1].style.backgroundColor = "#00A1DE";
+        el.rows[2].cells[2].style.backgroundColor = "#00A1DE";
         return true;
     } else if(el.rows[0].cells[2].getInnerHTML() != "" && el.rows[0].cells[2].getInnerHTML() === el.rows[1].cells[1].getInnerHTML() && el.rows[1].cells[1].getInnerHTML() === el.rows[2].cells[0].getInnerHTML()) {
-        el.rows[0].cells[2].style.backgroundColor = "green";
-        el.rows[1].cells[1].style.backgroundColor = "green";
-        el.rows[2].cells[0].style.backgroundColor = "green";
+        el.rows[0].cells[2].style.backgroundColor = "#00A1DE";
+        el.rows[1].cells[1].style.backgroundColor = "#00A1DE";
+        el.rows[2].cells[0].style.backgroundColor = "#00A1DE";
         return true;
     }
 }
