@@ -1,4 +1,4 @@
-var turn = 1;
+var turn = 0;
 
 window.addEventListener("DOMContentLoaded", (event) => {
     const el = document.getElementById("tic-tac-toe");
