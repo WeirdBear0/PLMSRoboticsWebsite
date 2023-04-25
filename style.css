@@ -125,8 +125,6 @@ body{
     justify-content: center;
 }
 .card-topic{
-    width: 45%;
-    height: 20rem;
     transition: all .5s ease;
     position: relative;
     z-index: 2;
@@ -134,7 +132,19 @@ body{
     opacity: 1;
     transform: translateY(0);
 }
-.card-topic:hover{
+.card1:hover .card-topic{
+    opacity: 0;
+    transform: translateY(-0.5rem);
+}
+.card2:hover .card-topic{
+    opacity: 0;
+    transform: translateY(-0.5rem);
+}
+.card3:hover .card-topic{
+    opacity: 0;
+    transform: translateY(-0.5rem);
+}
+.card4:hover .card-topic{
     opacity: 0;
     transform: translateY(-0.5rem);
 }
