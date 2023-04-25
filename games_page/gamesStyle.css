@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', 'Courier Prime', 'Bitter', serif;
+    color: #000814;
+    font-family: fantasy;
+}
+.navbar{
+    display: flex;
+    position: 0 0;
+    position: fixed;
+    flex: 1;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    height: 5rem;
+    border-style: solid;
+    border-color:#000814;
+    border-width: 0.08rem;
+    z-index: 3;
+}
+.logo{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+}
+.logo p{
+    color: #000814;
+}
+.links{
+    display: flex;
+    text-align: center;
+    width: 40rem;
+    z-index: 4;
+}
+.links a{
+    margin: auto;
+    text-decoration: none;
+    color: #000814;
+}
+.header{
+    height: 53rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #184e77;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(roboticsheader.png) no-repeat center center fixed; 
+    box-shadow: inset 0 0 0 50vw rgba(0, 16, 61, 0.4);  
+    background-size: cover; 
+}
+.header h1{
+    margin: 0;
+    color: white;
+    padding-top: 7rem;
+}
+.header p{
+    color: #f4f1de;
+}
+.main-title{
+    font-size: 50;
+    text-align: center;
+}
+.text{
+    margin: 2rem; 
+}
+.text p{
+    font-family: "D-DIN", sans-serif;
+}
+.card-container{
+    background-color: lightgray;
+}
+.card-title{
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+.cards div{
+    height: 20rem;
+    width: 45%;
+    margin: 2rem;
+    margin-top: 0;
+    background-color: #023e8a; 
+    box-shadow: inset 0 0 0 50vw rgba(0, 16, 61, 0.4); 
+}
+.card1{
+    transition: all .5s ease;
+    display: flex;
+    flex: 1;
+    background:url(softwareImg.jpg);  
+    background-size: 100% 20rem;
+    align-items: center;
+    justify-content: center;
+}
+.card2{
+    display: flex;
+    flex: 1;
+    background:url(cadphoto.jpg);  
+    background-size: 100% 20rem;
+    align-items: center;
+    justify-content: center;
+}
+.card3{
+    display: flex;
+    flex: 1;
+    background:url(cadphoto.jpg);  
+    background-size: 100% 20rem;
+    align-items: center;
+    justify-content: center;
+}
+.card4{
+    display: flex;
+    flex: 1;
+    background:url(cadphoto.jpg);  
+    background-size: 100% 20rem;
+    align-items: center;
+    justify-content: center;
+}
+.card-topic{
+    width: 45%;
+    height: 20rem;
+    transition: all .5s ease;
+    position: relative;
+    z-index: 2;
+    color:white;
+    opacity: 1;
+    transform: translateY(0);
+}
+.card-topic:hover{
+    opacity: 0;
+    transform: translateY(-0.5rem);
+}
+.robotmentorcontainer{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+}
+.robotmentorcontainer div{
+    width: 50%;
+    padding:0 2rem 2rem;
+}
+.robotmentorcontainer div p{
+    font-family: 'D-DIN', sans-serif;
+}
+.robotmentorcontainer div a{
+    transition: all .5s ease;
+    padding: 0.5rem;
+    color: whitesmoke;
+    background-color: #000814;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;    
+}
+.robotmentorcontainer div a:hover{
+    color: #000814;
+    background-color: whitesmoke;
+}
+.competitions{
+    background-color: lightgray;
+    padding: 1rem 2rem;
+}
+h1 {
+    text-align: center;
+}
+.center {
+    margin-left: 37%;
+    margin-top: 10%;
+    margin-bottom:15%;
+}
+#winner {
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.5em;
+}
+td{
+    width: 7rem;
+    height: 7rem;
+    border: solid 5px hsla(0, 0%, 30%, 0.8);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 225px;
+    line-height: 1.5em;
+}
+tbody {
+    text-align: center;
+    font-family: cursive;
+    font-size: 3em;
+}
