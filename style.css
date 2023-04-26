@@ -126,27 +126,25 @@ body{
 }
 .card-topic{
     transition: all .5s ease;
-    position: relative;
+    position: absolute;
     z-index: 2;
     color:white;
     opacity: 1;
     transform: translateY(0);
 }
-.card1:hover .card-topic{
+.cards div p{
+    transition: all .6s ease;
+    opacity: 0;
+    color:white;
+    transform: translateY(-0.5);
+}
+.cards div:hover .card-topic{
     opacity: 0;
     transform: translateY(-0.5rem);
 }
-.card2:hover .card-topic{
-    opacity: 0;
-    transform: translateY(-0.5rem);
-}
-.card3:hover .card-topic{
-    opacity: 0;
-    transform: translateY(-0.5rem);
-}
-.card4:hover .card-topic{
-    opacity: 0;
-    transform: translateY(-0.5rem);
+.cards div:hover p{
+    opacity: 1;
+    transform: translateY(0.5rem);
 }
 .robotmentorcontainer{
     display: flex;
@@ -174,6 +172,9 @@ body{
 }
 .competitions{
     background-color: lightgray;
+    padding: 1rem 2rem;
+}
+.contactinfo{
     padding: 1rem 2rem;
 }
 
