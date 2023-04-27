@@ -111,7 +111,7 @@ body{
 .card3{
     display: flex;
     flex: 1;
-    background:url(cadphoto.jpg);  
+    background:url(business.png);  
     background-size: 100% 20rem;
     align-items: center;
     justify-content: center;
@@ -119,7 +119,7 @@ body{
 .card4{
     display: flex;
     flex: 1;
-    background:url(cadphoto.jpg);  
+    background:url(media.jpeg);  
     background-size: 100% 20rem;
     align-items: center;
     justify-content: center;
